@@ -14,8 +14,22 @@
 chrome-profiler-events*.json
 speed-measure-plugin*.json
 
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# firebase
+.firebase/
+firebase.json
+.firebaserc
+
 # IDEs and editors
-/.idea
 .project
 .classpath
 .c9/
@@ -40,6 +54,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/dist
 
 # System Files
 .DS_Store
